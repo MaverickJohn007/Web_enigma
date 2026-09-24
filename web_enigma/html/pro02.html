@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de utiles escolares</title>
+</head>
+<body>
+    <script>
+        let precio=Number(prompt("Ingrese el precio de un cuaderno: "));
+        let cantidad=Number(prompt("Ingrese la cantidad de cuadernos: "));
+        let preciolapiz=Number(prompt("Ingrese el precio de un lapiz: "));
+        let cantidadlapiz= Number(prompt("Ingrese la cantidad de lapices: "));
+
+        
+        let total;
+       
+        total = (precio*cantidad+preciolapiz*cantidadlapiz)
+
+
+        document.write("El precio de un cuaderno es de : S/"+ precio + "<br>");
+        document.write("La cantidad de cuadernos comprados es de: "+ cantidad + "<br>");
+        document.write("El precio de un lapiz es de : S/" + preciolapiz+ "<br>");
+        document.write("La cantidad de lapices es de : " + cantidadlapiz + "<br>");
+        document.write("El precio total de todos los productos es de: S/" + total);
+
+
+    </script>
+
+
+
+</body>
+</html>
